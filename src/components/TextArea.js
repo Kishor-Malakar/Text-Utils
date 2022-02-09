@@ -11,10 +11,7 @@ export default function TextArea(props) {
     setText(newText);
   };
   const handleCopy = () => {
-    let copy = document.getElementById("myText");
-    copy.select();
-    navigator.clipboard.writeText(copy.value);
-    document.getSelection().removeAllRanges();
+    navigator.clipboard.writeText(text);
     props.showAlert("Copied to Clipboard.")
   };
   const handleSpace = () => {
