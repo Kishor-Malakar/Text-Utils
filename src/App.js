@@ -1,15 +1,15 @@
 // import logo from './logo.svg';
 import React, { useState } from "react";
 import "./App.css";
-// import About from "./components/About";
+import About from "./components/About";
 import Alert from "./components/Alert";
 import Navbar from "./components/Navbar";
 import TextArea from "./components/TextArea";
-// import {
-//   BrowserRouter as Router,
-//   Routes,
-//   Route,
-// } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
 
 function App() {
   const [mode, setMode] = useState("light");
@@ -36,7 +36,7 @@ function App() {
 
   return (
     <>
-      {/* <Router> */}
+      <Router>
         <Navbar
           title="Text Utils"
           aboutus="About"
@@ -44,12 +44,12 @@ function App() {
           toggleSwitch={toggleSwitch}
         />
         <Alert alert={alert} />
-        <TextArea head="Enter Your Text Here" mode={mode} showAlert={showAlert}/>
-        {/* <Routes>
+        {/* <TextArea head="Enter Your Text Here" mode={mode} showAlert={showAlert}/> */}
+        <Routes>
           <Route exact path="/about" element={<About mode={mode}/>} />
           <Route exact path="/" element={<TextArea head="Enter Your Text Here" mode={mode} showAlert={showAlert}/>}/>
         </Routes>
-      </Router> */}
+      </Router>
     </>
   );
 }

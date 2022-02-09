@@ -14,6 +14,7 @@ export default function TextArea(props) {
     let copy = document.getElementById("myText");
     copy.select();
     navigator.clipboard.writeText(copy.value);
+    document.getSelection().removeAllRanges();
     props.showAlert("Copied to Clipboard.")
   };
   const handleSpace = () => {
@@ -42,19 +43,19 @@ export default function TextArea(props) {
           }}
           placeholder="Type Here..."
         />
-        <button className="btn btn-success my-3 mx-1" onClick={handleClickUp}>
+        <button disabled={text.length===0} className="btn btn-success my-3 mx-1" onClick={handleClickUp}>
           Convert To UpperCase
         </button>
-        <button className="btn btn-success my-3 mx-1" onClick={handleClickDown}>
+        <button disabled={text.length===0} className="btn btn-success my-3 mx-1" onClick={handleClickDown}>
           Convert To LowerCase
         </button>
-        <button className="btn btn-success my-3 mx-1" onClick={handleSpace}>
+        <button disabled={text.length===0} className="btn btn-success my-3 mx-1" onClick={handleSpace}>
           Remove Extra Spaces
         </button>
-        <button className="btn btn-success my-3 mx-1" onClick={handleCopy}>
+        <button disabled={text.length===0} className="btn btn-success my-3 mx-1" onClick={handleCopy}>
           Copy Text
         </button>
-        <button className="btn btn-danger my-3 mx-1 float-end" onClick={handleClear}>
+        <button disabled={text.length===0} className="btn btn-danger my-3 mx-1 float-end" onClick={handleClear}>
           Clear
         </button>
       </div>
