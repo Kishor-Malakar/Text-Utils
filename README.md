@@ -1,4 +1,4 @@
-`Text-Utils is a text manipulating website:
+`Text-Utils is a text manipulating website:`
 
  In this website you can manipulate your texts such as, you can
  convert your texts to uppercase, lowercase, remove extra spaces
