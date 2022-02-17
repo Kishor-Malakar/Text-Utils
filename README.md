@@ -1,4 +1,5 @@
 `Text-Utils is a text manipulating website:`
+`Visit Here:` https://kishor-malakar.github.io/Text-Utils/
 
  In this website you can manipulate your texts such as, you can
  convert your texts to uppercase, lowercase, remove extra spaces
@@ -15,7 +16,5 @@
  If you toggle the switch again it will disable Dark Mode.
 
  This website is a single page website created using RectJs and Bootstrap.
- 
- Link: ` https://kishor-malakar.github.io/Text-Utils/`
 
 
