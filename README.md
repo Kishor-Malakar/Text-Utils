@@ -15,3 +15,7 @@
  If you toggle the switch again it will disable Dark Mode.
 
  This website is a single page website created using RectJs and Bootstrap.
+ 
+ Link: ` https://kishor-malakar.github.io/Text-Utils/`
+
+
