@@ -16,6 +16,6 @@
  There is another brilliant feature in the Navbar where you can toggle switch to enable Dark Mode.
  If you toggle the switch again it will disable Dark Mode.
 
- This website is a single page website created using RectJs and Bootstrap.
+ This website is a single page website created using RectJs and Bootstrap. 
 
 
