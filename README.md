@@ -1,6 +1,6 @@
 `Text-Utils is a text manipulating website:`
 
- Visit Here: https://kishor-malakar.github.io/Text-Utils/
+ Visit Here: https://text-utils-kishormalakar.netlify.app
 
  In this website you can manipulate your texts such as, you can
  convert your texts to uppercase, lowercase, remove extra spaces
